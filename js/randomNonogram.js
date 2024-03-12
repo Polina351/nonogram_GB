@@ -11,7 +11,6 @@ function randomIndex() {
 }
 function randomNonogram() {
   const index = randomIndex();
-  console.log('random', index);
   const value = nonograms[index].name;
   updateNonogram(value);
 }

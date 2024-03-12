@@ -11,7 +11,7 @@ import { audioClick } from './sound';
 // const currentIndex = 0;
 // eslint-disable-next-line import/no-mutable-exports
 export let currentMatrix = currentNono.nonogram;
-console.log(currentMatrix);
+
 function checkCell(elem, matrix) {
   const position = elem.id.replace('pos', '').split('-');
   return matrix[+position[0]][+position[1]] === 1;

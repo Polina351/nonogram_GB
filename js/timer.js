@@ -9,8 +9,6 @@ let timer;
 export function startTimer() {
   // eslint-disable-next-line no-undef
   const timerElem = document.querySelector('.timer');
-  console.log(timerElem);
-  console.log('start timer');
   // eslint-disable-next-line no-undef
   const cells = document.querySelectorAll('.cell');
   cells.forEach((elem) => {

@@ -22,7 +22,6 @@ function getCurrentCellsInArray() {
       currentCellsArray.push(0);
     }
   }
-  console.log(currentCellsArray);
   return currentCellsArray;
 }
 function getObjectInfoSaveGame() {
@@ -32,7 +31,6 @@ function getObjectInfoSaveGame() {
   objectInfoSaveGame.cells = getCurrentCellsInArray();
   objectInfoSaveGame.index = getIndex(currentNono.name);
   objectInfoSaveGame.time = currentTime;
-  console.log(objectInfoSaveGame);
   return objectInfoSaveGame;
 }
 

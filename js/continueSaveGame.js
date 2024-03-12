@@ -20,7 +20,6 @@ function restoreCells(arrayCells) {
 function restoreGame() {
   // eslint-disable-next-line no-undef
   const gameData = JSON.parse(localStorage.getItem('saveGame'));
-  console.log('get:', gameData);
   stopTimer();
   updateNonogram(nonograms[gameData.index].name);
   // eslint-disable-next-line no-import-assign

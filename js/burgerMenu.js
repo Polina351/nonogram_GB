@@ -5,7 +5,6 @@ export function openCloseMenu() {
   // eslint-disable-next-line no-undef
   const burgerMenu = document.querySelector('.main-right');
   burgerButton.addEventListener('click', function () {
-    console.log('click', this);
     burgerMenu.classList.toggle('open');
     burgerButton.classList.toggle('open');
   });
@@ -30,12 +29,4 @@ export function openCloseMenu() {
       burgerButton.classList.remove('open');
     }
   });
-  // eslint-disable-next-line no-undef
-  // document.querySelectorAll('.right_menu_btn').forEach((link) => {
-  //   // eslint-disable-next-line no-unused-vars
-  //   link.addEventListener('click', (event) => {
-  //     burgerMenu.classList.remove('open');
-  //     console.log('removeOpen');
-  //   });
-  // });
 }

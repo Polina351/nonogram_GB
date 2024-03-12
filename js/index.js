@@ -3,7 +3,7 @@ import '../sound/click.mp3';
 import '../sound/victory.mp3';
 import '../sound/left_click.mp3';
 import '../sound/right_click.mp3';
-import { createAppElem, print } from './createNonogram';
+import { createAppElem } from './createNonogram';
 import { addEventListenerForCells } from './startGame';
 // eslint-disable-next-line import/named
 import { createHeaderAndWrapper, createMain } from './createStaticElements';
@@ -28,6 +28,5 @@ addEventForButtonRandom();
 addEventForButtonSolution();
 addEventForButtonSave();
 addEventForButtonContinue();
-print();
 addEventListenerForCells();
 openCloseMenu();

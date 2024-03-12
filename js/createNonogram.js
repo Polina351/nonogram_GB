@@ -108,6 +108,4 @@ export function createAppElem(index) {
   // eslint-disable-next-line no-undef
   nonogramBox.append(appElem);
 }
-export function print() {
-  console.log('Все будет ok!');
-}
+

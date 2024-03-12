@@ -8,7 +8,6 @@ function deleteCondition(element) {
   element.classList.remove('empty');
 }
 function addNewCondition(element, key) {
-  console.log(element);
   if (key === 1) {
     element.classList.add('fill');
   } else {
